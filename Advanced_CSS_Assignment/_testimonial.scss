@@ -1,0 +1,42 @@
+.testimonial-container{
+    margin:50px 50px 100px 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 10px 5px grey;
+}
+.testimonial-main{
+        padding: 35px 35px 0 35px;
+        font-size: 1.4em;
+        line-height: 1.7em;
+        color: grey;
+        height: 230px;
+
+}
+.iris img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 200px;
+        transform: translateX(175px) translateY(75px);
+        border: solid 7px #fff;
+
+}
+.testimonial-footer{
+        height: 210px;
+        background-color: $testimonial;
+        text-align: center;
+        color: #fff;
+        border-radius: 0 0 20px 20px;
+        h1{
+            padding-top: 60px;
+        }
+        p{
+        color:#c3cfe2;
+        line-height: 0.1em; 
+        }
+}
+
